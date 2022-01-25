@@ -6,13 +6,13 @@
     <img src="./banner.png">
 </h1>
 
-<h3 align="center">Você pode acessar o projeto <a href="" target="_blank">Clicando Aqui</a></h3>
+<h3 align="center">You can access the project <a href="" target="_blank">Clicking here</a></h3>
 
 ---
 
 </br>
 
-# Tecnologias
+# Technologies
 
 - [Html](https://www.w3schools.com/html/)
 - [Css](https://www.w3schools.com/css/)
@@ -23,16 +23,16 @@
 
 <br/>
 
-## Como baixar o projeto:
+## How to download the project:
 
 ```bash
-# Clonar o repositório
+# Clone the repository
 $ git clone git@github.com:kennedybarros/iphone-responsive-landing-page.git
 
-# Entrar no diretório
+# Enter directory
 $ cd iphone-responsive-landing-page
 ```
 
 ---
 
-<p align="center"> Desenvolvido por <a href="https://www.linkedin.com/in/kennedybarros/">Kennedy Barros</a> ✌🏼</p>
+<p align="center"> Developed by <a href="https://www.linkedin.com/in/kennedybarros/">Kennedy Barros</a> ✌🏼</p>
