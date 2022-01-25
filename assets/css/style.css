@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem 0 0 0;
+  padding: 0;
+  font-family: 'Poppins';
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+
+h1,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #080d13;
+}
+
+.nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 830px) {
+  .logo {
+    margin-left: 137px;
+    width: 40%;
+  }
+  .nav_menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    padding: 3.5rem 1.5rem 0;
+    background: #28292b;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+  }
+}
+
+.nav_close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.nav_item {
+  margin-bottom: 2rem;
+}
+
+.nav_close,
+.nav_link,
+.nav_logo,
+.nav_toggle {
+  color: #a4a5a6;
+}
+
+.nav_link:hover {
+  color: #ffffff;
+}
+
+.nav_toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.show {
+  right: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  .header {
+    background-color: #323233;
+  }
+}
+@media screen and (min-width: 830px) {
+  body {
+    margin: 0;
+  }
+
+  .nav {
+    height: calc(3rem + 1.5rem);
+  }
+
+  .nav_toggle,
+  .nav_close {
+    display: none;
+  }
+
+  .nav_list {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    right: 270px;
+  }
+
+  .nav_item {
+    margin-left: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

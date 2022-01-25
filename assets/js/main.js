@@ -1,4 +1,3 @@
-// FAVICON DARK/LIGHT MODE
 const faviconTag = document.getElementById('favicon_tag');
 const isDark = window.matchMedia('(prefers-color-scheme: dark)');
 const changeFavicon = () => {
@@ -7,3 +6,17 @@ const changeFavicon = () => {
 };
 changeFavicon();
 setInterval(changeFavicon, 1000);
+
+const navMenu = document.getElementById('nav-menu'),
+  toggleMenu = document.getElementById('nav-toggle'),
+  closeMenu = document.getElementById('nav-close');
+
+// SHOW
+toggleMenu.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
+
+// HIDDEN
+closeMenu.addEventListener('click', () => {
+  navMenu.classList.remove('show');
+});
