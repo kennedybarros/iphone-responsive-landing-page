@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500&display=swap');
 
 :root {
-  --header-height: 3rem;
   --first-color: #080d13;
   --first-color-light: #0053a7;
   --first-color-dark: #004386;
