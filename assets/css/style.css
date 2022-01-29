@@ -24,6 +24,7 @@ body {
   margin: 3rem 0 0 0;
   padding: 0;
   font-family: var(--primary-font);
+  background-color: var(--first-color);
 }
 
 h1,
@@ -155,6 +156,16 @@ a {
   font-size: var(--normal-font-size);
   color: rgba(255, 255, 255, 60%);
 }
+
+.home_description_2 {
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  font-family: var(--secundary-font);
+  font-weight: 400;
+  font-size: var(--normal-font-size);
+  color: rgba(255, 255, 255, 60%);
+}
+
 .home_text {
   margin-top: 90px;
   font-family: var(--secundary-font);
@@ -205,7 +216,8 @@ a {
     color: var(--first-color);
   }
   .home_text,
-  .home_description {
+  .home_description,
+  .home_description_2 {
     color: var(--gray-color);
   }
   .home_learn {
@@ -213,28 +225,37 @@ a {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media screen and (max-width: 768px) {
+  .home_img {
+    top: 20px;
+    width: 150px;
+    height: 150px;
+  }
   .home_img img {
-    top: 400px;
-    left: 70px;
-    max-width: 50%;
+    width: 200px;
   }
   .home_data {
     position: absolute;
-    top: 0px;
+    top: 320px;
   }
   .home_text {
     padding-left: 140px;
     font-size: 0.975rem;
-    left: 30px;
+    text-align: left;
   }
   .home_title {
     font-size: 1.6rem;
+    text-align: center;
   }
   .home_description {
     position: relative;
     font-size: 0.975rem;
-    left: -10px;
+    text-align: center;
+  }
+  .home_description_2 {
+    position: relative;
+    font-size: 0.975rem;
+    top: -30px;
     text-align: center;
   }
   br {
@@ -242,13 +263,14 @@ a {
   }
   .home_buy,
   .home_learn {
+    top: -40px;
     position: relative;
     padding: 0.6rem 1rem;
     left: 70px;
   }
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -284,16 +306,17 @@ a {
 
   .home_img {
     order: 1;
-    width: 375px;
-    height: 289px;
+    top: -70px;
+    width: 300px;
+    height: 300px;
   }
 
   .home_img img {
-    width: 175px;
+    width: 320px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
   .grid {
     margin-left: auto;
     margin-right: auto;
@@ -305,13 +328,59 @@ a {
   }
 
   .home_img {
-    width: 204px;
-    height: 366px;
+    top: -70px;
+    left: 80px;
+    width: 300px;
+    height: 300px;
   }
 
   .home_img img {
-    margin-top: -60px;
-    margin-left: 200px;
-    width: 204px;
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  .grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home_container {
+    justify-content: initial;
+    column-gap: 4.5rem;
+  }
+
+  .home_img {
+    top: -70px;
+    left: 120px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .home_img img {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 1076px) {
+  .grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home_container {
+    justify-content: initial;
+    column-gap: 4.5rem;
+  }
+
+  .home_img {
+    top: -70px;
+    left: 120px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .home_img img {
+    width: 340px;
   }
 }
