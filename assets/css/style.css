@@ -206,6 +206,9 @@ a {
 }
 
 @media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--white-color);
+  }
   .header {
     background-color: var(--gray-color);
   }
