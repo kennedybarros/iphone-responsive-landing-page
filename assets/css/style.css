@@ -235,6 +235,7 @@ a {
     height: 150px;
   }
   .home_img img {
+    left: -30px;
     width: 200px;
   }
   .home_data {
@@ -242,24 +243,23 @@ a {
     top: 320px;
   }
   .home_text {
-    padding-left: 140px;
     font-size: 0.975rem;
     text-align: left;
   }
   .home_title {
     font-size: 1.6rem;
-    text-align: center;
+    text-align: left;
   }
   .home_description {
     position: relative;
     font-size: 0.975rem;
-    text-align: center;
+    text-align: left;
   }
   .home_description_2 {
     position: relative;
     font-size: 0.975rem;
     top: -30px;
-    text-align: center;
+    text-align: left;
   }
   br {
     display: none;
@@ -269,7 +269,6 @@ a {
     top: -40px;
     position: relative;
     padding: 0.6rem 1rem;
-    left: 80px;
   }
 }
 
