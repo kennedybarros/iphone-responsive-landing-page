@@ -56,4 +56,4 @@ gsap.from('.home_description_2', {
 gsap.from('.home_text', { opacity: 0, duration: 1, delay: 1.8, y: 30 });
 gsap.from('.home_buy', { opacity: 0, duration: 1, delay: 2.1, y: 30 });
 gsap.from('.home_learn', { opacity: 0, duration: 1, delay: 2.1, y: 30 });
-gsap.from('.home_img', { opacity: 0, duration: 1, delay: 1.3, y: 30 });
+gsap.from('.home_img', { opacity: 0, duration: 1, delay: 2, y: 30 });
