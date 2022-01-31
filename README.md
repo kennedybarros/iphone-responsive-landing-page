@@ -14,10 +14,10 @@
 
 # Technologies
 
-- [Html](https://www.w3schools.com/html/)
-- [Css](https://www.w3schools.com/css/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [GSap](https://greensock.com/gsap/)
+- [GSAP](https://greensock.com/gsap/)
 
 ---
 
