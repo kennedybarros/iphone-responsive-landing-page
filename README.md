@@ -42,7 +42,7 @@ $ cd iphone-responsive-landing-page
 ---
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+This project is under license. see the file [LICENSE](LICENSE.md) for more details.
 
 ---
 
