@@ -1,12 +1,14 @@
+// Favicon Dark/Light Mode
 const faviconTag = document.getElementById('favicon_tag');
 const isDark = window.matchMedia('(prefers-color-scheme: dark)');
 const changeFavicon = () => {
-  if (isDark.matches) faviconTag.href = './assets/img/favicon-dark.svg';
-  else faviconTag.href = './assets/img/favicon-light.svg';
+  if (isDark.matches) faviconTag.href = './assets/svg/favicon_dark.svg';
+  else faviconTag.href = './assets/svg/favicon_light.svg';
 };
 changeFavicon();
 setInterval(changeFavicon, 1000);
 
+// Menu Toggle
 const navMenu = document.getElementById('nav-menu'),
   toggleMenu = document.getElementById('nav-toggle'),
   closeMenu = document.getElementById('nav-close');
@@ -19,6 +21,7 @@ closeMenu.addEventListener('click', () => {
   navMenu.classList.remove('show');
 });
 
+// IMG Hover Effect 3D
 document.addEventListener('mousemove', move);
 function move(e) {
   this.querySelectorAll('.move').forEach((layer) => {
@@ -31,6 +34,7 @@ function move(e) {
   });
 }
 
+// Animation GSAP
 gsap.from('.nav_logo, .nav_toggle', {
   opacity: 0,
   duration: 1,

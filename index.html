@@ -4,25 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPhone Responsive Landing Page</title>
+
+    <!--============ CSS ============-->
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+
+    <!--========== HTML META TAGS ===========-->
+    <meta name="title" content="iPhone Responsive Landing Page" />
     <meta
       name="description"
-      content="iPhone Responsive Lading Page By Kennedy B."
+      content="iPhone Responsive Landing Page by Kennedy B."
     />
+    <meta name="author" content="Kennedy Barros" />
+
+    <!--========== Open Graph / Facebook ===========-->
+    <meta property="og:url"
+    content=https://iphone-responsive-lading-page.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="iPhone Responsive Landing Page" />
+    <meta
+      property="og:description"
+      content="iPhone Responsive Landing Page by Kennedy B."
+    />
+    <meta property="og:image" content="https://i.ibb.co/XZHFRFH/cover.png" />
+
+    <!--========== Canonical ===========-->
+    <meta property="canonical"
+    content=https://iphone-responsive-lading-page.netlify.app/" />
+    <meta property="keywords" content="responsive, website, iphone" />
+    <meta property="robots" content="responsive, website, iphone" />
+
+    <!--=========== Twitter ===============-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:domain"
+      content="repsonsive-website-playstation.netlify.app"
+    />
+    <meta property="twitter:url"
+    content=https://iphone-responsive-lading-page.netlify.app/" />
+    <meta name="twitter:title" content="iPhone Responsive Landing Page" />
+    <meta
+      name="twitter:description"
+      content="iPhone Responsive Landing Page by Kennedy B."
+    />
+    <meta name="twitter:image" content="https://i.ibb.co/XZHFRFH/cover.png" />
+
+    <!--=========== Favicon ===============-->
     <link
       rel="shortcut icon"
-      href="./assets/img/favicon-light.svg"
+      href="./assets/svg/favicon_light.svg"
       type="image/x-icon"
       id="favicon_tag"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>iPhone Responsive Landing Page</title>
+
+    <!--============ GOOGLE FONTS ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!--============ HEADER ============-->
     <header class="header">
       <nav class="nav grid">
         <div>
           <a href="/"
-            ><img src="./assets/img/logo.svg" alt="Apple" class="nav_logo" />
+            ><img
+              src="./assets/svg/logo.svg"
+              alt="Apple"
+              class="nav_logo"
+              width="105"
+              height="29"
+            />
           </a>
         </div>
         <div class="nav_toggle" id="nav-toggle">
@@ -75,7 +130,9 @@
         </div>
       </nav>
     </header>
+    <!--============ MAIN ============-->
     <main class="l-main">
+      <!--============ CONTENT ============-->
       <section class="home" id="home">
         <div class="home_container grid">
           <div class="home_img">
@@ -108,7 +165,8 @@
         </div>
       </section>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!--============ JS ============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
