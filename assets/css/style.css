@@ -7,7 +7,7 @@
   --white-color: #ffffff;
   --primary-font: 'Poppins';
   --secundary-font: 'Roboto';
-  --description-color:  rgba(255, 255, 255, 60%);
+  --description-color: rgba(255, 255, 255, 60%);
   --big-font-size: 62px;
   --normal-font-size: 18px;
   --font-weigth-title: 500;
@@ -64,7 +64,7 @@ a {
 }
 
 /* NAV */
-.header div:first-child{ 
+.header div:first-child {
   margin: 0 auto;
 }
 
@@ -157,7 +157,7 @@ a {
   margin-bottom: 2.5rem;
   line-height: 1.6;
   font-family: var(--secundary-font);
-  font-weight: var( --font-weigth-text);
+  font-weight: var(--font-weigth-text);
   font-size: var(--normal-font-size);
   color: var(--description-color);
 }
@@ -166,7 +166,7 @@ a {
   margin-bottom: 2.5rem;
   line-height: 1.6;
   font-family: var(--secundary-font);
-  font-weight: var( --font-weigth-text);
+  font-weight: var(--font-weigth-text);
   font-size: var(--normal-font-size);
   color: var(--description-color);
 }
@@ -174,7 +174,7 @@ a {
 .home_text {
   margin-top: 5.625rem;
   font-family: var(--secundary-font);
-  font-weight: var( --font-weigth-text);
+  font-weight: var(--font-weigth-text);
   font-size: var(--normal-font-size);
   color: var(--description-color);
 }
@@ -183,7 +183,7 @@ a {
   display: inline-block;
   background-color: var(--first-color-light);
   color: var(--white-color);
-  font-weight: var( --font-weigth-title);
+  font-weight: var(--font-weigth-title);
   padding: 1rem 2rem;
   border-radius: 8px;
   transition: 0.3s;
@@ -196,10 +196,10 @@ a {
 .home_learn {
   display: inline-block;
   background-color: var(--first-color);
-  border: solid .1625rem var(--first-color-dark);
+  border: solid 0.1625rem var(--first-color-dark);
   color: var(--first-color-light);
-  font-weight: var( --font-weigth-title);
-  padding:  .975rem 2rem;
+  font-weight: var(--font-weigth-title);
+  padding: 0.975rem 2rem;
   margin-left: 1.875rem;
   border-radius: 8px;
   transition: 0.3s;
@@ -236,7 +236,7 @@ a {
 
 /* MEDIAS QUERIES */
 @media screen and (max-width: 886px) {
-  .nav_logo{
+  .nav_logo {
     margin-left: 1.875rem;
   }
   .home_img {
@@ -253,16 +253,17 @@ a {
     top: 320px;
   }
   .home_text {
-    font-size: .975rem;
+    font-size: 0.975rem;
     text-align: left;
   }
   .home_title {
     font-size: 1.6rem;
     text-align: left;
   }
-  .home_description, .home_description_2  {
+  .home_description,
+  .home_description_2 {
     position: relative;
-    font-size: .975rem;
+    font-size: 0.975rem;
     text-align: left;
   }
   .home_description_2 {
@@ -275,7 +276,7 @@ a {
   .home_learn {
     top: -40px;
     position: relative;
-    padding: .6rem 1.5rem;
+    padding: 0.6rem 1.5rem;
   }
 }
 
@@ -289,7 +290,7 @@ a {
     display: none;
   }
 
-  .header div:first-child{
+  .header div:first-child {
     margin: 0;
   }
 
@@ -327,7 +328,6 @@ a {
     width: 320px;
   }
 }
-
 
 @media screen and (min-width: 1000px) {
   .grid {
